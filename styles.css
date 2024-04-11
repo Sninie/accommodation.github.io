@@ -1,0 +1,209 @@
+/* This is margin and padding  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and font styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ad0606;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .nav-links {
+    list-style-type: none;
+  }
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Accommodation and Food Section styles (the Accommodation label will be used for food too)*/
+  #accommodation {
+    padding: 40px 0;
+  }
+  #accommodation h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .accommodation-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .accommodation-item {
+    text-align: left;
+  }
+  .accommodation-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .accommodation-item img:hover {
+    transform: scale(1.05);
+  }
+  .accommodation-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  .accommodation-item p:hover {
+    color: #007bff;
+  }
+  /* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .nav-links {
+    list-style-type: none;
+  }
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* About Us Section styles */
+  #about {
+    padding: 40px 0;
+  }
+  #about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #about p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+
+  /* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .nav-links {
+    list-style-type: none;
+  }
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Contact Us Section styles to allow form */
+  #contact {
+    padding: 40px 0;
+  }
+  #contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  
